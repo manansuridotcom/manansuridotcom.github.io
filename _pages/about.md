@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Computer Engineering Senior, Interested in <b>AI, Data, and Software </b>
 
 profile:
   align: right
@@ -13,13 +13,22 @@ profile:
     <br>
 
 news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
 Hi, I'm Manan 👋
 
-Info about me goes here info about me goes here info about me goes here info about me goes here info about me goes here info about me goes here `info about me goes here` info about me goes here info about me goes here [link about me goes here](https://avatars.githubusercontent.com/u/84636031) info about me goes here info about me goes here info about me goes here  
+I am a Computer Engineering undergraduate at Netaji Subhas University of Technology, New Delhi. My academic journey has been marked by consistent excellence, earning me the prestigious CVSPK Scholar distinction, placing me consistenly within the top 5% of my cohort.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+With a keen interest in AI, Data, and Software, I've embarked on a dynamic professional journey that reflects my passion and dedication. One of my recent achievements includes serving as a `Data Science for Social Good Fellow` at the `University of Warwick` during the summer of 2023. Collaborating closely with the Algorithmic Transparency Institute, I delved into the critical domain of greenwashing and greenmessaging. Working alongside luminaries like Dr. Geoffrey Supran from the University of Miami and Dr. John Cook from the University of Melbourne, I contributed to fostering transparency in this pivotal area.
+
+I've also had the privilege to contribute meaningfully to the startup landscape, particularly at the dynamic startup `Scalenut`. In this role, I had the opportunity to harness the capabilities of Language Model technologies, working on tasks such as document ranking and retrieval functions. One notable accomplishment was my involvement in creating a high-performing fact annotator, a modest contribution that aimed to enhance the startup's offerings.
+
+Research has been a cornerstone of my journey, and I've had the privilege of collaborating with distinguished minds in academia. At `Northeastern University`, I worked alongside Dr. Divya Dabas Chaudhary and Dr. Ian Gorton, managing and guiding four research teams. Together, we delved into crucial areas such as Depressive Tendencies, Trigger Warnings, and Fine-grained Sexism Detection.
+
+My research endeavors extended to the `MIDAS Lab at IIIT Delhi`, where, under the guidance of [Dr. Rajiv Ratan Shah](), I explored the intricate interplay of speech disfluency, conversational context, and user history for the vital task of hate speech detection.
+
+Currently, I am privileged to be under the mentorship of [Dr. Dinesh Manocha]() at the GAMMA Lab, University of Maryland College Park. My current works encompass Implicit Hate Speech, pioneering Data Augmentation techniques for Low Resource Complex Named Entity Recognition, and the innovative realm of text-guided document editing.
+

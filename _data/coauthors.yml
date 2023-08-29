@@ -32,3 +32,19 @@
 "Planck":
   - firstname: ["Max"]
     url: https://en.wikipedia.org/wiki/Max_Planck
+
+"Chaudhary":
+  - firstname: ["Divya"]
+    url: https://www.khoury.northeastern.edu/people/divya-chaudhary/
+
+"Gorton":
+  - firstname: ["Ian"]
+    url: https://www.khoury.northeastern.edu/people/ian-gorton/
+
+"Kumar":
+  - firstname: ["Bijendra"]
+    url: http://nsut.ac.in/en/node/242
+
+"Manocha":
+- firstname: ["Dinesh"]
+  url: https://www.cs.umd.edu/people/dmanocha

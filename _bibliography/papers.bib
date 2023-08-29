@@ -1,84 +1,151 @@
----
----
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@inproceedings{ghosh-etal-2023-aclm,
+    title = "{ACLM}: A Selective-Denoising based Generative Data Augmentation Approach for Low-Resource Complex {NER}",
+    author = "Ghosh, Sreyan  and
+      Tyagi, Utkarsh  and
+      Suri, Manan  and
+      Kumar, Sonal  and
+      S, Ramaneswaran  and
+      Manocha, Dinesh",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.8",
+    doi = "10.18653/v1/2023.acl-long.8",
+    pages = "104--125",
+    abstract = "Complex Named Entity Recognition (NER) is the task of detecting linguistically complex named entities in low-context text. In this paper, we present ACLM Attention-map aware keyword selection for Conditional Language Model fine-tuning), a novel data augmentation approach based on conditional generation, to address the data scarcity problem in low-resource complex NER. ACLM alleviates the context-entity mismatch issue, a problem existing NER data augmentation techniques suffer from and often generates incoherent augmentations by placing complex named entities in the wrong context. ACLM builds on BART and is optimized on a novel text reconstruction or denoising task - we use selective masking (aided by attention maps) to retain the named entities and certain keywords in the input sentence that provide contextually relevant additional knowledge or hints about the named entities. Compared with other data augmentation strategies, ACLM can generate more diverse and coherent augmentations preserving the true word sense of complex entities in the sentence. We demonstrate the effectiveness of ACLM both qualitatively and quantitatively on monolingual, cross-lingual, and multilingual complex NER across various low-resource settings. ACLM outperforms all our neural baselines by a significant margin (1{\%}-36{\%}). In addition, we demonstrate the application of ACLM to other domains that suffer from data scarcity (e.g., biomedical). In practice, ACLM generates more effective and factual augmentations for these domains than prior methods.",
+    bibtex_show = {true},
+    html = {https://aclanthology.org/2023.acl-long.8},
+    pdf = {https://aclanthology.org/2023.acl-long.8.pdf},
+    selected={true}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@misc{
+shah2023the,
+title={The Geometry of Multilingual Language Models: A Fairness Lens},
+author={Cheril Shah and Yashashree Chandak and Manan Suri},
+year={2023},
+howpublished={ICLR TinyPapers 2023},
+note={Conference paper},
+url={https://openreview.net/forum?id=dGuMR8tLDs}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
+@article{ghosh2023cosyn,
+  title={CoSyn: Detecting Implicit Hate Speech in Online Conversations Using a Context Synergized Hyperbolic Network},
+  author={Ghosh, Sreyan and Suri, Manan and Chiniya, Purva and Tyagi, Utkarsh and Kumar, Sonal and Manocha, Dinesh},
+  journal={arXiv preprint arXiv:2303.03387},
+  year={2023},
   selected={true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{suri-etal-2023-wader,
+    title = "WADER: A Weak-labelling framework for Data augmentation in t{E}xt Regression Tasks",
+    author = "Suri, Manan  and
+      Garg, Aaryak  and
+      Chaudhary, Divya  and
+      Gorton, Ian  and
+      Kumar, Bijendra",
+    booktitle = "Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval-2023)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.semeval-1.267",
+    doi = "10.18653/v1/2023.semeval-1.267",
+    pages = "1945--1952",
+    abstract = "Intimacy is an essential element of human relationships and language is a crucial means of conveying it. Textual intimacy analysis can reveal social norms in different contexts and serve as a benchmark for testing computational models{'} ability to understand social information. In this paper, we propose a novel weak-labeling strategy for data augmentation in text regression tasks called WADER. WADER uses data augmentation to address the problems of data imbalance and data scarcity and provides a method for data augmentation in cross-lingual, zero-shot tasks. We benchmark the performance of State-of-the-Art pre-trained multilingual language models using WADER and analyze the use of sampling techniques to mitigate bias in data and optimally select augmentation candidates. Our results show that WADER outperforms the baseline model and provides a direction for mitigating data imbalance and scarcity in text regression tasks.",
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+
+@article{semwal2023multimodal,
+  title={Multimodal Analysis and Modality Fusion for Detection of Depression from Twitter Data},
+  author={Semwal, Nalin and Suri, Manan and Chaudhary, Divya and Gorton, Ian and Kumar, Bijendra},
+  journal={AI4SG at AAAI 2023: Workshop on Artificial Intelligence for Social Good, Association for the Advancement of Artificial Intelligence},
+  pages={1--5},
+  year={2023},
+  url={https://amulyayadav.github.io/AI4SG2023/images/31.pdf}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@inproceedings{10.1145/3578741.3578817,
+  author = {Suri, Manan and Semwal, Nalin and Chaudhary, Divya and Gorton, Ian and Kumar, Bijendra},
+  title = {I Don’t Feel so Good! Detecting Depressive Tendencies Using Transformer-Based Multimodal Frameworks},
+  year = {2023},
+  isbn = {9781450399067},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3578741.3578817},
+  doi = {10.1145/3578741.3578817},
+  abstract = {One of the most common mental illnesses that affects 5\% of adults globally is depression. The advancement of social media has meant that more and more people have gained a platform to voice their thoughts and beliefs. People’s social media interactions and posted content can be used to infer critical characteristics such as depressive tendencies which will allow for timely intervention and help. This paper describes a novel supervised approach to detect depressive tendencies in Twitter users using multimodal frameworks which account for user interaction and online behaviour in addition to the tweet content processed using transformers like BERT. The performance of three multimodal frameworks is described with different methods for combining modalities. The best result is obtained a cross-modality based model which improves the baseline by 12\% points.},
+  booktitle = {Proceedings of the 2022 5th International Conference on Machine Learning and Natural Language Processing},
+  pages = {360–365},
+  numpages = {6},
+  keywords = {NLP, computational social science, depression},
+  location = {Sanya, China},
+  series = {MLNLP '22},
+  selected={true}
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@inproceedings{suri-etal-2022-nsut,
+    title = "Multilingual Protest Event Detection using Transformer-based Models",
+    author = "Suri, Manan  and
+      Chopra, Krish  and
+      Arora, Adwita",
+    booktitle = "Proceedings of the 5th Workshop on Challenges and Applications of Automated Extraction of Socio-political Events from Text (CASE)",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates (Hybrid)",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.case-1.23",
+    doi = "10.18653/v1/2022.case-1.23",
+    pages = "161--168",
+    abstract = "Event detection, specifically in the socio-political domain, has posed a long-standing challenge to researchers in the NLP domain. Therefore, the creation of automated techniques that perform classification of the large amounts of accessible data on the Internet becomes imperative. This paper is a summary of the efforts we made in participating in Task 1 of CASE 2022. We use state-of-art multilingual BERT (mBERT) with further fine-tuning to perform document classification in English, Portuguese, Spanish, Urdu, Hindi, Turkish and Mandarin. In the document classification subtask, we were able to achieve F1 scores of 0.8062, 0.6445, 0.7302, 0.5671, 0.6555, 0.7545 and 0.6702 in English, Spanish, Portuguese, Hindi, Urdu, Mandarin and Turkish respectively achieving a rank of 5 in English and 7 on the remaining language tasks.",
 }
+
+@article{ghosh2022novel,
+  title={A novel multimodal dynamic fusion network for disfluency detection in spoken utterances},
+  author={Ghosh, Sreyan and Tyagi, Utkarsh and Kumar, Sonal and Suri, Manan and Shah, Rajiv Ratn},
+  journal={arXiv preprint arXiv:2211.14700},
+  year={2022}
+}
+
+@inproceedings{suri-2022-pickle,
+    title = "Boosting Pre-trained Language Models with Task Specific Metadata and Cost Sensitive Learning",
+    author = "Suri, Manan",
+    booktitle = "Proceedings of the 16th International Workshop on Semantic Evaluation (SemEval-2022)",
+    month = jul,
+    year = "2022",
+    address = "Seattle, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.semeval-1.63",
+    doi = "10.18653/v1/2022.semeval-1.63",
+    pages = "464--472",
+    abstract = "This paper describes our system for Task 4 of SemEval 2022: Patronizing and Condescending Language Detection. Patronizing and Condescending Language (PCL) refers to language used with respect to vulnerable communities that portrays them in a pitiful way and is reflective of a sense of superiority. Task 4 involved binary classification (Subtask 1) and multi-label classification (Subtask 2) of Patronizing and Condescending Language (PCL). For our system, we experimented with fine-tuning different transformer-based pre-trained models including BERT, DistilBERT, RoBERTa and ALBERT. Further, we have used token separated metadata in order to improve our model by helping it contextualize different communities with respect to PCL. We faced the challenge of class imbalance, which we solved by experimenting with different class weighting schemes. Our models were effective in both subtasks, with the best performance coming out of models with Effective Number of Samples (ENS) class weighting and token separated metadata in both subtasks. For subtask 1 and subtask 2, our best models were finetuned BERT and RoBERTa models respectively.",
+    selected={true}
+}
+
+@inproceedings{DBLP:conf/clef/SuriKD22,
+  author       = {Manan Suri and
+                  Prajeet Katari and
+                  Saumay Dudeja},
+  editor       = {Guglielmo Faggioli and
+                  Nicola Ferro and
+                  Allan Hanbury and
+                  Martin Potthast},
+  title        = {Multimodal {BERT} for Identifying Claims
+                  in Tweets},
+  booktitle    = {Proceedings of the Working Notes of {CLEF} 2022 - Conference and Labs
+                  of the Evaluation Forum, Bologna, Italy, September 5th - to - 8th,
+                  2022},
+  series       = {{CEUR} Workshop Proceedings},
+  volume       = {3180},
+  pages        = {679--693},
+  publisher    = {CEUR-WS.org},
+  year         = {2022},
+  url          = {https://ceur-ws.org/Vol-3180/paper-55.pdf},
+  timestamp    = {Fri, 10 Mar 2023 16:23:41 +0100},
+  biburl       = {https://dblp.org/rec/conf/clef/SuriKD22.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org
+  }
+  }
+
