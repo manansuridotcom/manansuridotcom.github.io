@@ -3,7 +3,7 @@ layout: page
 title: projects
 permalink: /projects/
 description: Asatya etc add kardo I think we can even just paste the README for each project and it should work since it's just markdown. Or just redirect to github and be done with it.
-nav: true
+# nav: true
 nav_order: 2
 display_categories: [work, fun]
 horizontal: false
