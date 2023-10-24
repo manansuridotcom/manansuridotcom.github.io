@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /repositories/
+permalink: /repositories/index.html
 title: repositories
 redirect_to: https://manansuri.com/repositories/
 # description: Cringe page edited a bit to remove "trophies" and "github stats" Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
