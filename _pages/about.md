@@ -3,6 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: Computer Engineering Senior, Interested in <b>AI, Data, and Software </b>
+redirect_to: https://manansuri.com/
 
 profile:
   align: right
